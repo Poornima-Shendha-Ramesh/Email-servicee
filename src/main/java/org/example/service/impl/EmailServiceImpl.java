@@ -18,7 +18,6 @@ public class EmailServiceImpl implements EmailService {
     @Autowired
     JavaMailSender javaMailSender;
 
-   // @Value("${spring.mail.username}")
     private String sender;
     @Override
     public String sendMail(EmailReqDTO emailReqDTO) {
