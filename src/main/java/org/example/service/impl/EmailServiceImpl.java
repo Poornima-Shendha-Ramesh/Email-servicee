@@ -17,7 +17,7 @@ public class EmailServiceImpl implements EmailService {
 
     @Autowired
     JavaMailSender javaMailSender;
-
+*
     private String sender;
     @Override
     public String sendMail(EmailReqDTO emailReqDTO) {
